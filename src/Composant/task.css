@@ -1,0 +1,137 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titre principal */
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #333;
+}
+
+/* Conteneur du formulaire d'ajout */
+.form-ajout {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Champs de formulaire */
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Bouton d'ajout */
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Conteneur de la liste des tâches */
+.arr {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Titre des tâches */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table des tâches */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+td {
+  background-color: #fff;
+}
+
+/* Lignes alternées pour une meilleure lisibilité */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Section des boutons d'action */
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.action-icon:hover {
+  opacity: 0.7;
+}
+
+/* Bouton pour afficher/masquer les tâches accomplies */
+button {
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #0b7dda;
+}
+
+/* Style pour la section des tâches accomplies */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Amélioration de la présentation des sections */
+section {
+  margin: 20px;
+}
+
+section h3 {
+  color: #333;
+}
+
